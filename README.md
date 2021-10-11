@@ -5,7 +5,7 @@
 
 # Introduction
 
-Using the R package bookdown I built a small project compiling daily logs of my work together with my projects description and schedule. The lab book was built using the bookdown R package (Xie, 2021) to easily integrate daily notes, figures and code chunks. Using blogdown allows for a high flexibility in the format, and to work with several collaborators once the notebook is uploaded on GitHub (or GitLab).
+Using the R package bookdown I built a small project compiling daily logs of my work together with description and schedule of my projects. The lab book was built using the bookdown R package (Xie, 2021) to easily integrate daily notes, figures and code chunks. Using blogdown allows for a high flexibility in the format, and working with several collaborators once the notebook is uploaded on GitHub (or GitLab).
 
 Details and additional options on [bookdown.org](https://bookdown.org/).
 
@@ -19,7 +19,7 @@ Code available on [GitHub](https://github.com/remybeugnon/Lab-notebook)
 
 ### ii. Open notebook.RProj in RStudio
 
-The Notebook have been set to produce .pdf output, the output formal can be changed in `index.Rmd`
+The Notebook has been set to produce .pdf output, the output formal can be changed in `index.Rmd`
 
 ### iii. Start your Notebook
 
@@ -40,7 +40,7 @@ In the Terminal write `./start.sh` and return. A new log will be created and wil
 
 ### iii. Fill the log
 
-the log are writing in Markdown language, remove the comments and start filling your log
+The logs are writing in Markdown language, remove the comments and start filling your log
 
 -   `##` are header levels for the months
 
@@ -48,7 +48,7 @@ the log are writing in Markdown language, remove the comments and start filling 
 
 -   `####` can be used for any desired subsection
 
-All possible options can be find in the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) (Xie and Dervieux 2020)
+All possible options can be found in the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) (Xie and Dervieux 2020)
 
 ### iv. Compiling your record
 
