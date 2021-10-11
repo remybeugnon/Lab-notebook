@@ -1,0 +1,11 @@
+\newpage 
+
+# Introduction
+
+The Notebook was designed to report everyday progress. Three main section will follow: (1) A detailed list of the different ongoing projects, (2) A To Do list daily updated and (3) all daily logs. 
+
+
+The list of projects will detail the project name, goal, the current status and some detailed information (e.g. manuscript title and abstract). The To Do list is ordered in the following sections: Today, Urgent and Important, Important, One day. Finally the logs are chronologically ordered and detail daily inputs on the different projects. 
+
+\newpage 
+

@@ -1,0 +1,12 @@
+Project,Task,Start ,Stop ,Progress
+ ,Contract,01/01,31/12,99
+Project 1, Sampling 2018,01/01,31/01,90
+Project 1,_ Analyses,01/01,31/01,99
+Project 1,_ Writing,01/01,31/01,90
+Project 2, Collab. ,01/01,15/02,75
+Project 2,_ Analyses,01/01,15/02,80
+Project 2,_ Writing,01/01,15/02,70
+Meeting,Marseille,01/10, 20/04,99
+Meeting,ESA,01/09, 06/08,99
+Meeting,GfO,10/09, 14/09,99
+Meeting,BES-SFEE,10/12, 20/12,99

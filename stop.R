@@ -1,0 +1,1 @@
+rmarkdown::render_site(encoding = 'ISO8859-1')

@@ -1,0 +1,117 @@
+# Projects
+
+## Project 1
+
+*Project:*
+
+*Goal:*
+
+*Status:* 
+
+*GitHub:* 
+
+*To Do:* 
+
++ 
+
++
+
++ 
+
++
+
++
+
+*Title:* 
+
+*Target journal:*
+
+*Abstract:* 
+
+
+## Project 2
+
+*Project:*
+
+*Goal:*
+
+*Status:* 
+
+*GitHub:* 
+
+*To Do:* 
+
++ 
+
++
+
++ 
+
++
+
++
+
+*Title:* 
+
+*Target journal:*
+
+*Abstract:* 
+
+
+<!-- ## Project X  -->
+
+
+<!-- *Project:* Name project -->
+
+<!-- *Goal:*  -->
+
+<!-- *Status:*  -->
+
+<!-- *To Do:*  -->
+
+<!-- *Title:*  -->
+
+<!-- *Target journal:*  -->
+
+<!-- *Abstract:*  -->
+
+## Planning
+
+```{r, echo=FALSE, message=FALSE}
+#### Packages ####
+libs <- c(
+  'dplyr',   # data 
+  'ggplot2' # plot
+)
+
+invisible(lapply(libs, library, character.only = T))
+
+#### Data ####
+planning <- read.csv('Planning.csv')
+planning$Start = planning$Start %>% as.Date(.,"%d/%m") 
+planning$Stop = planning$Stop %>% as.Date(.,"%d/%m")
+planning$name = paste(planning$Project, planning$Task)
+planning$uni = paste(planning$Project, planning$Task) %>% factor(levels = planning$name)
+
+df = planning %>% select(-Stop)
+df.1 = planning %>% select(Project, Task, Start = Stop, Progress, name, uni)
+df = bind_rows(df, df.1)
+#### Plot ####
+p = 
+  ggplot(data = df, aes(x = uni, y = Start, color = Project, alpha = Progress)) + 
+  geom_line(size = 3) +
+  scale_alpha(range = c(.2,1)) + 
+  scale_x_discrete(limits = rev(levels(df$uni))) +
+  scale_y_date(date_breaks = "1 month", date_labels = "%b") +
+  labs(x = '', y = '') + 
+  theme_classic() +
+  theme(legend.position = 'none') +
+  coord_flip()
+
+ggsave(p, filename = 'planning.png', width = 25, height = 15, units = 'cm')
+
+p
+```
+
+
+\newpage 
