@@ -52,7 +52,7 @@ All possible options can be find in the [R Markdown Cookbook](https://bookdown.o
 
 ### iv. Compiling your record
 
-In the Terminal write `./stop.sh` , your notebook will be compiler and saved in the `Output` folder
+In the Terminal write `./stop.sh` , your notebook will be compiler and saved in the `_book` folder
 
 ## Tips
 
