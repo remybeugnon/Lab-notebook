@@ -9,52 +9,9 @@ Using the R package bookdown I built a small project compiling daily logs of my 
 
 Details and additional options on [bookdown.org](https://bookdown.org/).
 
-# Tutorial
+# [Tutorial](https://remybeugnon.netlify.app/post/lab-book-with-r/)
 
-## I. Initiate your notebook
-
-### i. Clone the full repository on your local machine
-
-Code available on [GitHub](https://github.com/remybeugnon/Lab-notebook)
-
-### ii. Open notebook.RProj in RStudio
-
-The Notebook has been set to produce .pdf output, the output formal can be changed in `index.Rmd`
-
-### iii. Start your Notebook
-
-1.  Write the introduction for your Notebook in 00_intro.Rmd
-2.  Describe your projects in `01_Project.Rmd`
-3.  Plan your year in `Planning.csv`
-4.  Prepare your ToDo list in `02_ToDo.Rmd`
-
-Now your Notebook is ready to be used
-
-## II. Add daily records
-
-### i. Open `notebook.RProj` in RStudio
-
-### ii. Start a new log using the Terminal
-
-In the Terminal write `./start.sh` and return. A new log will be created and will open in your RStudio script panel.
-
-### iii. Fill the log
-
-The logs are writing in Markdown language, remove the comments and start filling your log
-
--   `##` are header levels for the months
-
--   `###` are headers for the days
-
--   `####` can be used for any desired subsection
-
-All possible options can be found in the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook/) (Xie and Dervieux 2020)
-
-### iv. Compiling your record
-
-In the Terminal write `./stop.sh` , your notebook will be compiler and saved in the `_book` folder
-
-## Tips
+# Tips
 
 -   RStudio implemented a visual editor for Rmarkdown which allows you to write your logs like a Word document ([Tutorial](https://rstudio.github.io/visual-markdown-editing/))
 
