@@ -3,9 +3,13 @@ title: "Notebook 2021"
 author: "Remy Beugnon"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+biblio-style: apalike
+link-citations: yes
 output:
   bookdown::pdf_document2:
     toc: yes
     number_sections: no
     depth: 2
+  html_document:
+    toc: yes
 ---
