@@ -2,50 +2,50 @@
 
 ## Today
 
-* 
+-   [ ] 
 
-*  
+-   [ ]
 
-* 
+-   [ ]
 
 ## Urgent and important
   
-*  
+*
   
-  +  
+  -   [ ]  
 
-  +  
+  -   [ ]
 
 *  
 
 ## Important
 
-*  
+-   [ ]
 
-* 
+-   [ ]
 
-*  
+-   [ ]
 
 ## To Do one day
 
-*   
+-   [ ]
 
-*  
+-   [ ]
 
 
 ## Planning year
 
 ### Millestones
 
-*  
+-   [ ]
 
-*  
+-   [ ]
 
-*  
+-   [ ]
 
-*  
+-   [ ]
 
-*  
+-   [ ]
 
 ### Monthly targets 
 
